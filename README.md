@@ -1,8 +1,12 @@
-## Summarizer
+# URL / YouTube Summarizer
 
-**In the given code i used langchain framework to build the "Summarizer"**
+A Streamlit app that summarizes the content of a webpage or YouTube video URL using an LLM (Groq) via LangChain's summarization chain.
 
+## Tech stack
+Python · LangChain (summarize chain) · Groq · Streamlit
 
-We have to pass the "Groq" API key 
-
-Then we can pass the "URL" of any website even we can pass any "YouTube" video URL, it will generate the Summary of that content respectively.
+## Run locally
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
